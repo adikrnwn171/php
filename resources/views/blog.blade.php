@@ -1,16 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halaman Blog</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <a href="/">Home</a>
-    <a href="/about">About</a>
-    <a href="/blog">Blog</a>
-    <a href="/contact">Contact</a>
-    <h1>Halaman Blog</h1>
-</body>
-</html>
+<x-layout>
+  <x-slot:title>{{ $title }}</x-slot>
+  <h3 class="text-xl">Welcome to my blog</h3>
+  <article>
+    <h6>Title 1</h6>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore voluptate non, culpa cum veniam nemo, odio dolor ad consectetur perspiciatis accusamus amet cumque deleniti, nam omnis quam vitae necessitatibus dicta!</p>
+  </article>
+  <article>
+    <h6>Title 2</h6>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus ipsam hic nostrum odit modi dolore culpa fuga id beatae cupiditate. Asperiores, iusto ullam beatae sed provident quasi magnam aliquid vel?</p>
+  </article>
+</x-layout>
